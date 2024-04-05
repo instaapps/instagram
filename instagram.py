@@ -99,7 +99,7 @@ if choice=="Login":
             if result:
                 if Email=="a@a.com":
                    st.success("Logged In as {}".format(Email))
-		   Email=st.text_input("Delete Email")
+			Email=st.text_input("Delete Email")
                    if st.button('Delete'):
                        delete_user(Email)
                    user_result = view_all_users()
